@@ -1,22 +1,17 @@
+
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
 
-/**
- * main -  prints _putchar, followed by a new line
- * Return: Always 0 (Success)
- */
-
-int main(void)
+/* betty style doc for function main goes there */
+int main()
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
-
-	return(0);
+char st[8] ="_putchar";
+int i = 0;
+for( i=0;i<8;i++){
+    putchar(st[i]);
+}
+putchar('\n');
+	return (0);
 }
