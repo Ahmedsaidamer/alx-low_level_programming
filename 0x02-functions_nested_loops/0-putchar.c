@@ -7,11 +7,14 @@
 /* betty style doc for function main goes there */
 int main()
 {
-char st[8] ="_putchar";
-int i = 0;
-for( i=0;i<8;i++){
-    putchar(st[i]);
-}
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 putchar('\n');
 	return (0);
 }
